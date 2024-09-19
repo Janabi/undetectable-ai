@@ -1,1 +1,1 @@
-# undetectable_ai
+# undetectable-ai
