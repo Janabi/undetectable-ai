@@ -1,0 +1,33 @@
+{
+  "name": "undetectable-ai",
+  "description": "This package is used to get use of undetectable ai platform",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "module": "./dist/index.mjs",
+  "types": "./dist/index.d.ts",
+  "scripts": {
+    "build": "tsup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Janabi/undetectable-ai.git"
+  },
+  "keywords": [
+    "ai",
+    "text",
+    "human",
+    "detect",
+    "word"
+  ],
+  "author": "arjanabi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Janabi/undetectable-ai/issues"
+  },
+  "homepage": "https://github.com/Janabi/undetectable-ai#readme",
+  "devDependencies": {
+    "axios": "^1.7.7",
+    "tsup": "^8.3.0",
+    "typescript": "^5.6.2"
+  }
+}
