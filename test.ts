@@ -1,6 +1,6 @@
 // example.ts
 
-import { UndetectableApi } from './src/undetectableApi';
+import { UndetectableApi } from "./src/undetectableApi";
 
 (async () => {
   const apiKey = '<YOUR_API-KEY>';
@@ -8,7 +8,7 @@ import { UndetectableApi } from './src/undetectableApi';
 
   try {
     const result = await apiClient.detectIndividualHumanText(
-      'ًWallahi i am human, and I can eat, breathe and talk perfectly',
+      'ً<PUT-YOUR-SENTENCE-HERE>',
     );
     console.log('API Response:', result);
   } catch (error) {
